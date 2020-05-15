@@ -1,0 +1,83 @@
+*
+.mainf
+{
+	display:flex;
+	flex-wrap:wrap;
+    	
+	
+	
+}
+
+.mainf > div
+{
+	
+	background-color: springgreen;
+	width: 580px;
+	margin:40px;
+	padding:20px;
+	
+}
+
+.mainf2
+{
+background-color: springgreen;
+padding:10px;
+margin:40px;
+margin-right:80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*HEADER*/
+
+
+
+
+.navi
+{
+	display:flex;
+	flex-wrap:wrap;
+    /*width: 5px;*/	
+	background-color: springgreen;
+	
+}
+
+
+
+.navi > a
+{
+	
+	background-color: rgb(0, 172, 230,10);
+	width:260px;
+	margin:30px;
+	padding:20px;
+   margin-left:35px;
+   text-align:center;
+   text-color: springgreen;
+   border-radius: 50px;
+}
+
+
+.navi h5
+{
+	color: springgreen;
+	
+}
+
+
+.navi >a:hover {
+   background-color: #5b9429;
+   border-radius: 40px;
+}
+
+

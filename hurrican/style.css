@@ -1,30 +1,8 @@
 *
-.mainf
-{
-	display:flex;
-	flex-wrap:wrap;
-    	
-	
-	
-}
+/* common */
 
-.mainf > div
-{
-	
-	background-color: springgreen;
-	width: 570px;
-	margin:40px;
-	padding:20px;
-	
-}
 
-.mainf2
-{
-background-color: springgreen;
-padding:10px;
-margin:40px;
-margin-right:80px;
-}
+
 
 
 .navi
@@ -60,6 +38,8 @@ margin-right:80px;
 .navi >a:hover {
    background-color: #5b9429;
    border-radius: 40px;
+      text-decoration:none;
+   
 }
 
 
@@ -75,3 +55,91 @@ margin-right:80px;
 		border: 1px solid black;
 		padding:5px;
 	}	
+	
+	
+	
+	/* system */
+	
+	@media (min-width:500px){
+		
+		
+		.mainf
+{
+	display:flex;
+	flex-wrap:wrap;
+    	
+	
+	
+}
+
+.mainf > div
+{
+	
+	background-color: springgreen;
+	width: 570px;
+	margin:40px;
+	padding:20px;
+	
+}
+
+.mainf2
+{
+background-color: springgreen;
+padding:10px;
+margin:40px;
+margin-right:80px;
+width:92%;
+}
+	
+	
+	}
+	
+	
+	
+/* mobile	 */
+	
+	
+@media(max-width:980px){
+		
+.mainf
+{
+	display:flex;
+	flex-wrap:wrap;
+    	
+	
+	
+}
+
+.mainf > div
+{
+	
+	background-color: springgreen;
+	width: 100%;
+	margin:40px;
+	padding:20px;
+	font-size: 40px;
+	
+}
+
+.mainf h1{
+			font-size: 60px;
+}
+
+	.navi h5{
+		
+		font-size: 40px;
+		
+		
+	}
+
+.mainf2
+{
+background-color: springgreen;
+padding:10px;
+/* margin:40px; */
+ /*margin:100px; */
+width:92%;
+font-size: 40px;
+}
+	
+	}

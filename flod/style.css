@@ -7,22 +7,6 @@
 
 *
 
-.contaner
-{
-	
-	display:flex;
-	flex-wrap: wrap;
-	
-}
-
-.contaner > div
-{
-	background-color: springgreen;
-			width: 580px;
-	margin:40px;
-	padding:20px;
-	
-}
 
 
 
@@ -92,6 +76,81 @@
 .navi >a:hover {
    background-color: #5b9429;
    border-radius: 40px;
+   text-decoration:none;
 }
+
+
+
+
+@media (min-width:500px){
+	
+	
+	.contaner
+{
+	
+	display:flex;
+	flex-wrap: wrap;
+	
+}
+
+.contaner > div
+{
+	background-color: springgreen;
+			width: 580px;
+	margin:40px;
+	padding:20px;
+	
+}
+
+	
+    	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:980px){
+	
+ 
+.contaner
+{
+	
+	display:flex;
+	flex-wrap: wrap;
+	
+}
+
+.contaner > div
+{
+	background-color: springgreen;
+			width: 100%;
+	margin:40px;
+	padding:20px;
+font-size: 40px;	
+}
+.contaner h1{
+		
+		font-size: 60px;
+	}
+
+	.navi h5{
+		
+		font-size: 40px;
+		
+		
+	}
+	
+}
+
+
+
+
 
 

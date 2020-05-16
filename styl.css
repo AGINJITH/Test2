@@ -421,18 +421,19 @@
    text-align:center;
    text-color: springgreen;
    
+   text-decoration:none;
 }
 
 .navi h5
 {
 	color: springgreen;
-	
+	text-decoration:none;
 }
 
 
 .navi >a:hover {
    background-color:  rgb(0, 172, 230,10);
-   
+   text-decoration:none;
 }
 
 	
@@ -464,7 +465,7 @@
 	margin-left:0px;
 	width:auto;
 	padding:15px;
-	padding-top:210px;	
+	padding-top:230px;	
 	}
 	
 	
@@ -550,6 +551,7 @@
    margin-left:4%;
    text-align:center;
    text-color: springgreen;
+   text-decoration:none;
    
 }
 
@@ -562,7 +564,7 @@
 
 .navi >a:hover {
    background-color:  rgb(0, 172, 230,10);
-   
+   text-decoration:none;
 }
 
 	
